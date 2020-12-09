@@ -1,0 +1,7 @@
+{
+  "name": "AppOlAmerica",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
