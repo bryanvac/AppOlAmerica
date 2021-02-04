@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Olamerica": {
+    "AppOlAmerica": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/Olamerica",
+            "outputPath": "dist/AppOlAmerica",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -68,18 +68,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "Olamerica:build"
+            "browserTarget": "AppOlAmerica:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "Olamerica:build:production"
+              "browserTarget": "AppOlAmerica:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "Olamerica:build"
+            "browserTarget": "AppOlAmerica:build"
           }
         },
         "test": {
@@ -116,18 +116,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "Olamerica:serve"
+            "devServerTarget": "AppOlAmerica:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "Olamerica:serve:production"
+              "devServerTarget": "AppOlAmerica:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "Olamerica",
+  "defaultProject": "AppOlAmerica",
   "cli": {
     "analytics": "b5253a59-58ce-4a21-a22f-7949f58d382c"
   }
