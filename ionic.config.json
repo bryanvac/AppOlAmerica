@@ -1,8 +1,0 @@
-{
-  "name": "AppOlAmerica",
-  "integrations": {
-    "capacitor": {},
-    "cordova": {}
-  },
-  "type": "angular"
-}
